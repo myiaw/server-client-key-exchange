@@ -1,0 +1,18 @@
+﻿<Window x:Class="server_client_key_exchange.Client"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        mc:Ignorable="d"
+        Title="Client" WindowStyle="None" Height="450" Width="800" Background="Transparent" AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border BorderBrush="#C0BABC" BorderThickness="0.1" CornerRadius="25" Background="#C0BABC"
+                MouseLeftButtonDown="UIElement_OnMouseLeftButtonDown">
+            <StackPanel Margin="25">
+                <Label FontSize="25" Content="Client" FontWeight="Bold" VerticalAlignment="Top" Background="White" />
+                <TextBlock TextWrapping="Wrap" x:Name="OutputBox" Width="Auto" Height="350" VerticalAlignment="Center" Background="#C7AC92" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
